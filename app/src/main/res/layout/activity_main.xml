@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/SectionResul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20dp"
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/SectionOper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:hint="@string/edit_text_hint" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/Section0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/buttonParAbierto"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ParAb" />
+
+        <Button
+            android:id="@+id/buttonParCerrado"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/ParCerr" />
+
+        <Button
+            android:id="@+id/buttonPorc"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Porc" />
+
+        <Button
+            android:id="@+id/buttonAC"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/AC" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/Section1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+        android:id="@+id/button7"
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:text="@string/Siete" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Ocho" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Nueve" />
+
+        <Button
+            android:id="@+id/buttonDiv"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Div" />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/Section2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Cuatro" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Cinco" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Seis" />
+
+        <Button
+            android:id="@+id/buttonMulti"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Multi" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/Section3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Uno" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Dos" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Tres" />
+
+        <Button
+            android:id="@+id/buttonMenos"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Menos" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/Section4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Cero" />
+
+        <Button
+            android:id="@+id/buttonPunto"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Punto" />
+
+        <Button
+            android:id="@+id/buttonIgual"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Igual" />
+
+        <Button
+            android:id="@+id/buttonMas"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:text="@string/Mas" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.v7.widget.LinearLayoutCompat>
+
